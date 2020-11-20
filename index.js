@@ -9,17 +9,16 @@ const writeFileAsync = util.promisify(fs.writeFile);
 function promptUser() {
     return inquirer.prompt([
       {
-        // array of questions for user
         message: "The array will be structured as... let (answer here) = []",
         name: "let",
       },
       {
-        // array of questions for user
-        message: "Please populate the array here",
-        name: "array",
-      }
+          message: "Please populate the array here",
+          name: "array",
+        }
     ]);
 }
+     
 
 
 async function init() {
