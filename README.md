@@ -1,1 +1,1 @@
-# arraymaker
+# read-me-generator
