@@ -1,1 +1,1 @@
-let a = [A, a, A, A]
+let a = [A, a, A, A]let b = [B b B B]let a = [undefined]let a = [bbbbhbb]let a = [function split() { [native code] }]let a = [aaaaa]let a = [a,a,a,a,a,a,a]let a = [aaaaaaa]let a = [a,a,a,a,a]

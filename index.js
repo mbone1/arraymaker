@@ -3,8 +3,16 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./util/generateMarkdown")
 
-const writeFileAsync = util.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.appendFile);
 
+
+// function start() {
+//     return inquirer.prompt([
+//         {
+//         message: "hello"
+//     }
+// ])
+// }
 
 function promptUser() {
     return inquirer.prompt([
