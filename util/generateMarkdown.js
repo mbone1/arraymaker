@@ -4,7 +4,7 @@ function generateMarkdown({
     array
 }) {
     console.log(array)
-    return `let ${let} = [${array.split("")}]` 
+    return `let ${let} = [${array.split("")}]  `; 
 
 };
 

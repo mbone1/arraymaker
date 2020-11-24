@@ -5,15 +5,6 @@ const generateMarkdown = require("./util/generateMarkdown")
 
 const writeFileAsync = util.promisify(fs.appendFile);
 
-
-// function start() {
-//     return inquirer.prompt([
-//         {
-//         message: "hello"
-//     }
-// ])
-// }
-
 function promptUser() {
     return inquirer.prompt([
       {
@@ -33,7 +24,7 @@ async function init() {
     try {
         const answers = await promptUser();
         const ReadMe = generateMarkdown(answers);
-        await writeFileAsync("readmeStorage/readme.md", ReadMe);
+        await writeFileAsync("arrayStorage/array.md", ReadMe);
         console.log("Successfully created array");
     } catch (err) {
         console.log(err);
